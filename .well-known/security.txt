@@ -1,0 +1,6 @@
+Contact: mailto:interest@getledgeriq.com
+Preferred-Languages: en
+Canonical: https://getledgeriq.com/.well-known/security.txt
+Policy: https://getledgeriq.com/#trust
+Hiring: https://getledgeriq.com
+Expires: 2027-05-15T23:59:59Z
