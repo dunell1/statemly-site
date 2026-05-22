@@ -1,6 +1,6 @@
-Contact: mailto:interest@getledgeriq.com
+Contact: mailto:interest@statemly.com
 Preferred-Languages: en
-Canonical: https://getledgeriq.com/security.txt
-Policy: https://getledgeriq.com/#trust
-Hiring: https://getledgeriq.com
+Canonical: https://statemly.com/security.txt
+Policy: https://statemly.com/#trust
+Hiring: https://statemly.com
 Expires: 2027-05-15T23:59:59Z
