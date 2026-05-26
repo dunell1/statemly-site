@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Statemly - AI-Powered Financial Audit</title>
-  <meta name="description" content="Upload bank statements. Statemly extracts, categorizes, and maps transactions to B22C means test fields automatically.">
+  <title>Statemly - Chapter 13 Intake, Clarified</title>
+  <meta name="description" content="Statemly helps bankruptcy intake teams organize common PDF and CSV bank statements into clearer preliminary financial summaries for attorney review.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -190,6 +190,15 @@
 
     .hero-copy {
       min-width: 0;
+    }
+
+    .hero-eyebrow {
+      margin-bottom: 18px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
     }
 
     .hero-copy h1 {
@@ -700,9 +709,21 @@
       line-height: 1.5;
     }
 
+    .contact-note {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .contact-note a {
+      color: var(--blue-dark);
+      font-weight: 800;
+    }
+
     .trust-panel {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
       gap: 24px;
       padding: 28px;
       background: #ffffff;
@@ -781,6 +802,15 @@
     }
 
     .footer-links a:hover { color: var(--blue); }
+
+    .footer-legal {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line-soft);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+    }
 
     @media (max-width: 980px) {
       .nav-links { display: none; }
@@ -889,17 +919,17 @@
           <span class="brand-mark">ST</span>
           <span>
             <span class="brand-name">Statemly</span>
-            <span class="brand-sub">Financial audit</span>
+            <span class="brand-sub">Financial intake clarity for bankruptcy teams</span>
           </span>
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="#how-it-works">How it works</a>
           <a href="#features">Features</a>
-          <a href="#attorneys">Attorneys</a>
+          <a href="#attorneys">For attorneys</a>
           <a href="#trust">Trust</a>
-          <a href="#beta">Beta access</a>
+          <a href="#beta">Early access</a>
         </nav>
-        <a class="btn btn-primary" href="#beta">Request beta access</a>
+        <a class="btn btn-primary" href="#beta">Request attorney early access</a>
       </div>
     </header>
 
@@ -907,16 +937,17 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <h1>AI-powered audit for <span>bankruptcy<br>preparation</span></h1>
-            <p>Upload bank statements. Statemly extracts, categorizes, and maps transactions to B22C means test fields so attorneys and clients can move from raw data to a cleaner review faster.</p>
+            <div class="hero-eyebrow">Built for bankruptcy intake teams</div>
+            <h1>Chapter 13 intake, <span>clarified.</span></h1>
+            <p>Upload common PDF or CSV bank statements. Statemly helps organize transactions into a clearer preliminary financial summary with means-test review support, so bankruptcy teams can move from raw records to attorney review faster.</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#beta">Request beta access</a>
+              <a class="btn btn-primary" href="#beta">Request attorney early access</a>
               <a class="btn btn-secondary" href="#how-it-works">See how it works</a>
             </div>
             <div class="assurance-row" aria-label="Statemly assurances">
-              <span class="assurance-item"><span class="check-dot">✓</span>Any bank statement</span>
-              <span class="assurance-item"><span class="check-dot">✓</span>Local-first review</span>
-              <span class="assurance-item"><span class="check-dot">✓</span>B22C mapping</span>
+              <span class="assurance-item"><span class="check-dot">✓</span>No bank login required</span>
+              <span class="assurance-item"><span class="check-dot">✓</span>Local-first workflow</span>
+              <span class="assurance-item"><span class="check-dot">✓</span>Preliminary means-test support</span>
             </div>
           </div>
 
@@ -928,11 +959,10 @@
               </div>
               <div class="product-body">
                 <aside class="sidebar">
-                  <div class="sidebar-label">Case review</div>
-                  <div class="side-item"><strong>Imports</strong><span>4</span></div>
+                  <div class="sidebar-label">Preliminary financial summary</div>
+                  <div class="side-item"><strong>Statements</strong><span>4</span></div>
                   <div class="side-item"><strong>Categories</strong><span>18</span></div>
-                  <div class="side-item"><strong>B22C fields</strong><span>Ready</span></div>
-                  <div class="side-item"><strong>Flags</strong><span>7</span></div>
+                  <div class="side-item"><strong>Review flags</strong><span>7</span></div>
                   <div class="side-item"><strong>Export</strong><span>PDF</span></div>
                 </aside>
                 <div class="main-panel">
@@ -946,38 +976,38 @@
                       <strong>1,284</strong>
                     </div>
                     <div class="metric mint">
-                      <span>Mapped</span>
-                      <strong>96%</strong>
+                      <span>Categories</span>
+                      <strong>18</strong>
                     </div>
                   </div>
 
                   <div class="table-card">
                     <div class="table-head">
                       <span>Transaction</span>
-                      <span>B22C category</span>
+                      <span>Review category</span>
                       <span>Status</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>ACH payroll deposit</strong>Monthly income source</span>
-                      <span>Current monthly income</span>
+                      <span><strong>Payroll deposit</strong>Income review category</span>
+                      <span>Income review category</span>
                       <span class="tag">Mapped</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>Rent payment</strong>Recurring household expense</span>
+                      <span><strong>Rent payment</strong>Housing and utilities</span>
                       <span>Housing and utilities</span>
                       <span class="tag">Mapped</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>Large transfer</strong>Manual review recommended</span>
-                      <span>Potential anomaly</span>
+                      <span><strong>Large transfer</strong>Follow-up recommended</span>
+                      <span>Follow-up recommended</span>
                       <span class="tag warn">Flagged</span>
                     </div>
                   </div>
 
                   <div class="report-card">
                     <div>
-                      <h3>Attorney-ready report</h3>
-                      <p>Reconciled totals, category mapping, duplicate checks, and anomaly notes prepared for review.</p>
+                      <h3>Preliminary financial summary</h3>
+                      <p>Reconciled totals, category groupings, duplicate checks, and review notes prepared for attorney review.</p>
                     </div>
                     <div class="mini-bars" aria-hidden="true">
                       <span></span><span></span><span></span><span></span><span></span>
@@ -992,10 +1022,10 @@
 
       <div class="stats">
         <div class="container stats-grid">
-          <div class="stat"><strong>Any bank</strong><span>PDF or CSV statements without custom templates.</span></div>
-          <div class="stat"><strong>B22C</strong><span>Transactions mapped toward means test review.</span></div>
-          <div class="stat"><strong>Local</strong><span>Designed around private financial workflows.</span></div>
-          <div class="stat"><strong>Windows</strong><span>Private beta testing for Windows users.</span></div>
+          <div class="stat"><strong>Common PDF/CSV exports</strong><span>Work from common bank and credit union statement exports without rebuilding a spreadsheet from scratch.</span></div>
+          <div class="stat"><strong>Means-test review support</strong><span>Organize income and expense activity toward preliminary review categories for attorney analysis.</span></div>
+          <div class="stat"><strong>Local-first workflow</strong><span>Designed around sensitive financial review without requiring bank logins.</span></div>
+          <div class="stat"><strong>Windows private beta</strong><span>Currently being tested for Windows-based bankruptcy intake workflows.</span></div>
         </div>
       </div>
 
@@ -1004,25 +1034,25 @@
           <div class="section-head">
             <div>
               <div class="section-kicker">How it works</div>
-              <h2>From raw statements to structured review.</h2>
+              <h2>From statement pile to structured review.</h2>
             </div>
-            <p>Statemly keeps the workflow direct: import documents, let the engine classify transactions, then review the report before sharing it with counsel.</p>
+            <p>Statemly keeps intake direct: import statements, review classified transactions, then export a clearer preliminary summary for attorney review.</p>
           </div>
           <div class="steps">
             <article class="step">
               <div class="step-number">01</div>
               <h3>Import statements</h3>
-              <p>Bring in PDF or CSV statements from banks and credit unions without rebuilding templates for each format.</p>
+              <p>Bring in common PDF or CSV exports from banks and credit unions.</p>
             </article>
             <article class="step">
               <div class="step-number">02</div>
-              <h3>Categorize activity</h3>
+              <h3>Organize activity</h3>
               <p>Extracted transactions are deduplicated, normalized, and grouped into practical review categories.</p>
             </article>
             <article class="step">
               <div class="step-number">03</div>
-              <h3>Review the report</h3>
-              <p>Export a structured audit package with B22C mapping, monthly trends, and flagged items for follow-up.</p>
+              <h3>Review the summary</h3>
+              <p>Export a structured preliminary package with category mapping, monthly trends, and flagged items for follow-up.</p>
             </article>
           </div>
         </div>
@@ -1033,40 +1063,40 @@
           <div class="section-head">
             <div>
               <div class="section-kicker">Features</div>
-              <h2>A calmer way to prepare messy financial records.</h2>
+              <h2>A calmer way to review messy financial records.</h2>
             </div>
-            <p>Built for people who need clarity, not another spreadsheet to maintain.</p>
+            <p>Built for bankruptcy teams that need faster first-pass clarity without replacing attorney judgment.</p>
           </div>
           <div class="features">
             <article class="feature">
               <div class="feature-icon">01</div>
-              <h3>Universal statement support</h3>
-              <p>Use common PDF and CSV exports from banks and credit unions, with AI-assisted parsing for inconsistent formats.</p>
+              <h3>Common statement imports</h3>
+              <p>Use common PDF and CSV exports from banks and credit unions.</p>
             </article>
             <article class="feature">
               <div class="feature-icon">02</div>
-              <h3>B22C category mapping</h3>
-              <p>Map spending and income activity toward bankruptcy means test review fields with an organized audit trail.</p>
+              <h3>Preliminary B22C category mapping</h3>
+              <p>Map transaction activity toward means-test review categories for attorney analysis.</p>
             </article>
             <article class="feature">
               <div class="feature-icon">03</div>
               <h3>Local-first workflow</h3>
-              <p>Keep sensitive financial review on the user's machine while preparing structured outputs for professional review.</p>
+              <p>Keep sensitive financial review close to the user's machine during the beta workflow.</p>
             </article>
             <article class="feature">
               <div class="feature-icon">04</div>
-              <h3>Anomaly flags</h3>
-              <p>Surface duplicate entries, large transfers, unusual merchant activity, and records that need a second look.</p>
+              <h3>Review flags</h3>
+              <p>Surface duplicate entries, large transfers, unusual merchant activity, and records that may need a second look.</p>
             </article>
             <article class="feature">
               <div class="feature-icon">05</div>
               <h3>Monthly trends</h3>
-              <p>Compare month-over-month income and expenses with fixed, variable, and review-needed breakdowns.</p>
+              <p>Compare month-over-month income and expense activity with cleaner category breakdowns.</p>
             </article>
             <article class="feature">
               <div class="feature-icon">06</div>
-              <h3>Clean exports</h3>
-              <p>Create a more attorney-ready package with reconciled totals, transaction notes, and category summaries.</p>
+              <h3>Clean attorney review exports</h3>
+              <p>Create a preliminary review package with totals, transaction notes, category summaries, and follow-up flags.</p>
             </article>
           </div>
         </div>
@@ -1075,24 +1105,27 @@
       <section class="split-section" id="attorneys">
         <div class="container split-panel">
           <div class="split-copy">
-            <div class="section-kicker">For attorneys</div>
+            <div class="section-kicker">For bankruptcy teams</div>
             <h2>Client intake without the statement scramble.</h2>
-            <p>We're building Statemly for bankruptcy teams that need faster document review, cleaner client handoffs, and structured output that can fit into existing case workflows.</p>
+            <p>We're building Statemly for bankruptcy teams that need clearer financial intake, cleaner client handoffs, and structured outputs that can fit into existing case workflows.</p>
             <div class="split-list">
-              <div><span class="check-dot">✓</span><span>Bulk client processing for repeated intake workflows.</span></div>
-              <div><span class="check-dot">✓</span><span>Structured outputs for review, follow-up, and case notes.</span></div>
-              <div><span class="check-dot">✓</span><span>Designed for debtor-side financial organization.</span></div>
+              <div><span class="check-dot">✓</span><span><strong>Faster first-pass review:</strong> Organize client statement activity before deeper attorney analysis.</span></div>
+              <div><span class="check-dot">✓</span><span><strong>Structured follow-up:</strong> Identify items that may need client clarification.</span></div>
+              <div><span class="check-dot">✓</span><span><strong>Debtor-side financial organization:</strong> Built around the realities of Chapter 13 intake preparation.</span></div>
+              <div><span class="check-dot">✓</span><span><strong>Attorney review stays central:</strong> Statemly supports organization and review. Your judgment stays final.</span></div>
             </div>
           </div>
-          <form class="attorney-form" action="mailto:interest@statemly.com" method="post" enctype="text/plain">
+          <form class="attorney-form" action="mailto:dunell@franklinenterpriseholdings.com" method="post" enctype="text/plain">
+            <h3>Request attorney early access</h3>
             <div class="form-grid">
               <input class="field" type="text" name="name" placeholder="Your name">
               <input class="field" type="email" name="email" placeholder="Work email">
             </div>
             <input class="field" type="text" name="firm" placeholder="Firm name">
             <textarea class="field" name="message" placeholder="Tell us about your intake workflow"></textarea>
-            <button class="btn btn-primary" type="submit">Request attorney information</button>
-            <p class="note">No commitment. We'll follow up with details on the attorney workflow tool when it is ready.</p>
+            <button class="btn btn-primary" type="submit">Request attorney early access</button>
+            <p class="note">No commitment. We'll follow up when attorney beta access is ready.</p>
+            <p class="contact-note">Direct contact: <a href="mailto:dunell@franklinenterpriseholdings.com">dunell@franklinenterpriseholdings.com</a> · <a href="tel:+17066191032">706-619-1032</a></p>
           </form>
         </div>
       </section>
@@ -1102,18 +1135,26 @@
           <div class="section-head">
             <div>
               <div class="section-kicker">Trust and safety</div>
-              <h2>Independent financial audit software.</h2>
+              <h2>Built for sensitive financial review.</h2>
             </div>
-            <p>Statemly is built for bank statement audit workflows, B22C category mapping, and local financial review.</p>
+            <p>Statemly is designed for bank statement organization, preliminary category mapping, and local-first review workflows.</p>
           </div>
           <div class="trust-panel">
             <article class="trust-item">
-              <h3>Not a crypto wallet product</h3>
-              <p>Statemly is not affiliated with Ledger SAS, hardware wallets, seed phrase recovery, or crypto-login services.</p>
+              <h3>No bank login required</h3>
+              <p>Statemly works from uploaded statement files and does not require clients to connect bank accounts.</p>
             </article>
             <article class="trust-item">
-              <h3>No wallet credentials</h3>
-              <p>Statemly never asks for seed phrases, private keys, crypto credentials, or wallet connection access.</p>
+              <h3>Local-first processing</h3>
+              <p>Designed to keep sensitive financial review on the user's machine during beta workflows.</p>
+            </article>
+            <article class="trust-item">
+              <h3>Attorney judgment stays final</h3>
+              <p>Statemly does not provide legal advice, prepare final court filings, or replace professional judgment.</p>
+            </article>
+            <article class="trust-item">
+              <h3>Security clarification</h3>
+              <p>Statemly is not affiliated with crypto wallets, hardware wallets, seed phrase recovery, or wallet-login services.</p>
             </article>
           </div>
         </div>
@@ -1122,9 +1163,9 @@
       <section class="beta-section" id="beta">
         <div class="container beta-panel">
           <div class="beta-copy">
-            <div class="section-kicker">Private beta</div>
+            <div class="section-kicker">Attorney early access</div>
             <h2>Help shape Statemly before public launch.</h2>
-            <p>We're looking for a small group of attorneys and everyday users to test Statemly on real bank statement workflows and share what feels clear, slow, confusing, or useful.</p>
+            <p>We're inviting a small group of bankruptcy attorneys and intake teams to test Statemly against real statement-review workflows and tell us what feels clear, slow, confusing, or useful.</p>
             <div class="chip-row">
               <span class="chip">Windows 10+</span>
               <span class="chip">Invitation-only</span>
@@ -1135,10 +1176,11 @@
           <form class="beta-form" action="https://formspree.io/f/mojkrbew" method="POST">
             <div class="form-grid">
               <input class="field" type="text" name="name" placeholder="Your name">
-              <input class="field" type="email" name="email" placeholder="Email address">
+              <input class="field" type="email" name="email" placeholder="Work email">
             </div>
-            <textarea class="field" name="feedback" placeholder="What would you like to test? Are you a user, attorney, or firm team member?"></textarea>
-            <button class="btn btn-primary" type="submit">Submit beta request</button>
+            <input class="field" type="text" name="firm" placeholder="Firm name">
+            <textarea class="field" name="feedback" placeholder="Tell us about your intake workflow"></textarea>
+            <button class="btn btn-primary" type="submit">Submit attorney early access request</button>
             <p class="note">Beta access is limited while the workflow is being tested and refined.</p>
           </form>
         </div>
@@ -1155,11 +1197,15 @@
           </span>
         </a>
         <div class="footer-links">
-          <a href="#beta">Beta access</a>
-          <a href="mailto:interest@statemly.com">Contact</a>
+          <a href="#beta">Early access</a>
+          <a href="mailto:dunell@franklinenterpriseholdings.com">Email</a>
+          <a href="tel:+17066191032">706-619-1032</a>
           <a href="#attorneys">For attorneys</a>
         </div>
-        <span>Windows 10+ - Private beta</span>
+        <span>Windows 10+ - Attorney early access</span>
+      </div>
+      <div class="container footer-legal">
+        Statemly supports financial organization and preliminary review workflows. It does not provide legal advice, prepare final court filings, or replace attorney judgment.
       </div>
     </footer>
   </div>
