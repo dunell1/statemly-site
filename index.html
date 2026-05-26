@@ -723,7 +723,7 @@
 
     .trust-panel {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
       padding: 28px;
       background: #ffffff;
@@ -746,6 +746,11 @@
       color: var(--muted);
       font-size: 14px;
       line-height: 1.65;
+    }
+
+    .trust-item.secondary {
+      grid-column: 1 / -1;
+      background: #f8fbff;
     }
 
     .beta-section {
@@ -927,7 +932,7 @@
           <a href="#features">Features</a>
           <a href="#attorneys">For attorneys</a>
           <a href="#trust">Trust</a>
-          <a href="#attorneys">Early access</a>
+          <a href="#attorneys">Request access</a>
         </nav>
         <a class="btn btn-primary" href="#attorneys">Request attorney early access</a>
       </div>
@@ -988,17 +993,17 @@
                       <span>Status</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>Payroll deposit</strong>Income review category</span>
-                      <span>Income review category</span>
+                      <span><strong>Payroll deposit</strong></span>
+                      <span>Income review</span>
                       <span class="tag">Mapped</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>Rent payment</strong>Housing and utilities</span>
+                      <span><strong>Rent payment</strong></span>
                       <span>Housing and utilities</span>
                       <span class="tag">Mapped</span>
                     </div>
                     <div class="tx-row">
-                      <span><strong>Large transfer</strong>Follow-up recommended</span>
+                      <span><strong>Large transfer</strong></span>
                       <span>Follow-up recommended</span>
                       <span class="tag warn">Flagged</span>
                     </div>
@@ -1116,7 +1121,7 @@
             </div>
           </div>
           <form class="attorney-form" action="mailto:dunell@franklinenterpriseholdings.com" method="post" enctype="text/plain">
-            <h3>Request attorney early access</h3>
+            <h3>Start attorney early access</h3>
             <div class="form-grid">
               <input class="field" type="text" name="name" placeholder="Your name">
               <input class="field" type="email" name="email" placeholder="Work email">
@@ -1125,6 +1130,7 @@
             <textarea class="field" name="message" placeholder="Tell us about your intake workflow"></textarea>
             <button class="btn btn-primary" type="submit">Request attorney early access</button>
             <p class="note">No commitment. We'll follow up when attorney beta access is ready.</p>
+            <p class="note">Built for early feedback from bankruptcy attorneys and intake teams.</p>
             <p class="contact-note">Direct contact: <a href="mailto:dunell@franklinenterpriseholdings.com">dunell@franklinenterpriseholdings.com</a> · <a href="tel:+17066191032">706-619-1032</a></p>
           </form>
         </div>
@@ -1152,7 +1158,7 @@
               <h3>Attorney judgment stays final</h3>
               <p>Statemly does not provide legal advice, prepare final court filings, or replace professional judgment.</p>
             </article>
-            <article class="trust-item">
+            <article class="trust-item secondary">
               <h3>Security clarification</h3>
               <p>Statemly is not affiliated with crypto wallets, hardware wallets, seed phrase recovery, or wallet-login services.</p>
             </article>
@@ -1171,7 +1177,7 @@
           </span>
         </a>
         <div class="footer-links">
-          <a href="#attorneys">Early access</a>
+          <a href="#attorneys">Request access</a>
           <a href="mailto:dunell@franklinenterpriseholdings.com">Email</a>
           <a href="tel:+17066191032">706-619-1032</a>
           <a href="#attorneys">For attorneys</a>
